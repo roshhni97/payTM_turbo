@@ -1,5 +1,5 @@
 {
-  "name": "payTM2",
+  "name": "paytm2",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -19,5 +19,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "recoil": "^0.7.7"
+  }
 }
