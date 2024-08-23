@@ -10,5 +10,7 @@ export const GET = async () => {
       name: "adsfsdf",
     },
   });
-  return NextResponse.json({ message: "Hello world" });
+  return NextResponse.json({
+    message: "Hello world",
+  });
 };
